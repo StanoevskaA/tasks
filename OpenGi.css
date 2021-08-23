@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(36, 24, 96, 1);
+  }
+
+.hero {
+    display: flex;
+    flex-direction:row;  
+  }
+
+.leftside, .rightside {
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside {
+    background: rgba(36, 24, 96, 1);
+    background-image: url(./1.jfif);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 20%;
+}
+
+.slogan {
+    color: white;
+    padding-top: 55vh;
+    padding-left: 20px;
+    font-size: 64px;
+}
+
+.rightside {
+    background: white;
+    border-radius: 50px 0px 0px 50px;
+    width: 80%;
+}
+
+.account {
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    font-family: 'Montserrat';
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 18px;
+    text-indent: 5px;
+    text color: rgba(12, 8, 8, 0.5);
+    width: 60%;
+    height: 25px;
+    background: #F6F6F7;
+    margin: 10px;
+    padding: 1%;
+  }
+  
+.sign-up {
+    background: rgba(37, 198, 249, 1);
+    border-radius: 15px;
+    font-size: 18px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    margin: 50px;
+}
+
+.log {
+    text-align: center;
+}
